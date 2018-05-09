@@ -200,14 +200,14 @@
     <Content Include="images\si3.jpg" />
     <Content Include="images\up.png" />
     <Content Include="images\zoom.png" />
-    <Content Include="Models\js\easing.js" />
-    <Content Include="Models\js\jquery.etalage.min.js" />
-    <Content Include="Models\js\jquery.min.js" />
-    <Content Include="Models\js\jquery.wmuSlider.js" />
-    <Content Include="Models\js\megamenu.js" />
-    <Content Include="Models\js\move-top.js" />
-    <Content Include="Models\js\owl.carousel.js" />
-    <Content Include="Models\js\simpleCart.min.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery.etalage.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.wmuSlider.js" />
+    <Content Include="js\megamenu.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\simpleCart.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -215,6 +215,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\Customer\Signup.cshtml" />
+    <Content Include="Views\Customer\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -222,6 +224,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\customer.cs" />
+    <Compile Include="Models\Mydb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
