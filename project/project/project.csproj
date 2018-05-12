@@ -220,11 +220,13 @@
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Products\AddProducts.cshtml" />
     <Content Include="Views\Cart\ShowCart.cshtml" />
+    <Content Include="Views\Orders\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
+    <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -232,6 +234,7 @@
     <Compile Include="Models\cart.cs" />
     <Compile Include="Models\customer.cs" />
     <Compile Include="Models\Mydb.cs" />
+    <Compile Include="Models\Orders.cs" />
     <Compile Include="Models\Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

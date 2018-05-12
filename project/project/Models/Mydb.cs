@@ -14,6 +14,8 @@ namespace project.Models
         public DbSet<Products> products { get; set;}
         public DbSet<cart> cart { get; set; }
 
+        public DbSet<Orders> orders { get; set; }
+
 
 
     }
