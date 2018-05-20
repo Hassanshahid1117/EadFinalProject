@@ -221,9 +221,16 @@
     <Content Include="Views\Products\AddProducts.cshtml" />
     <Content Include="Views\Cart\ShowCart.cshtml" />
     <Content Include="Views\Orders\Index.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\Admin\CustomerData.cshtml" />
+    <Content Include="Views\Admin\Signup.cshtml" />
+    <Content Include="Views\Admin\ShowOrders.cshtml" />
+    <Content Include="Views\Admin\ShowOrder.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
@@ -231,6 +238,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\cart.cs" />
     <Compile Include="Models\customer.cs" />
     <Compile Include="Models\Mydb.cs" />
