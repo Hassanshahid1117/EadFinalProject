@@ -10,6 +10,8 @@ namespace project.Controllers
     {
         // GET: Cart
         Mydb db = new Mydb();
+        [Route("cart")]
+        [Route("mycart")]
 
         public ActionResult ShowCart()
         {
