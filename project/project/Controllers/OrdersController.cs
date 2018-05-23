@@ -11,8 +11,6 @@ namespace project.Controllers
     {
         // GET: Orders
         Mydb db = new Mydb();
-        [Route("orders")]
-        [Route("myorders")]
         public ActionResult Index()
         {
 

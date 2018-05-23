@@ -13,9 +13,7 @@ namespace project.Controllers
         Mydb db = new Mydb();
 
         // GET: Customer
-        [Route("signup")]
-        [Route("customersignup")]
-        [Route("user/signup")]
+
         public ActionResult Signup()
         {
             if (Session["id"] != null)
@@ -36,9 +34,7 @@ namespace project.Controllers
             }
             return View(data);
         }
-        [Route("login")]
-        [Route("customerlogin")]
-        [Route("user/login")]
+
         public ActionResult Login()
         {
             if (Session["id"] != null)

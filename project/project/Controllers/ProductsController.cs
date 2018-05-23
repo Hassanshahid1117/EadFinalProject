@@ -10,7 +10,7 @@ namespace project.Controllers
     public class ProductsController : Controller
     {
         Mydb db = new Mydb();
-        [Route("Home")]
+        
         public ActionResult Index()
         {
             if (Session["id"] == null)
@@ -25,8 +25,6 @@ namespace project.Controllers
 
 
         // GET: Customer
-        [Route("Admin/addproducts")]
-        [Route("addproducts")]
         public ActionResult AddProducts()
         {
             return View();
